@@ -1,0 +1,136 @@
+
+.logo{
+    width: 400px;
+    position: absolute;
+    top: -135px;
+    left: -70px;
+}
+.HeaderContainer1{
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3a3042;
+    
+}
+li{
+    margin-right: 10px;
+}
+.lista{
+    width: 30vw;
+}
+.lista ul{ 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 60%;
+    
+}
+.lista ul li a{
+    text-decoration: none;
+    
+    color: #fff;
+}
+.ColorBlack{
+    color: #373d43 !important;
+    width: 100px;
+}
+.displayUl{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    width: 60vw;
+}
+
+.inputBox{
+    /* background-color: aqua; */
+    margin-left: 60px;
+    width: 20vw;
+}
+.inputSearchHeader{
+    border-radius: 30px;
+    border: none;
+    height: 20px;
+    padding: 5px;
+}
+.divisioriaFoto{
+    width: 10vw;
+}
+.fotoPerfil{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    /* background-color: red; */
+    background-image: url('RegistrarBGjpg.jpg');
+    background-size: contain;
+    cursor: pointer;
+    border: 2px solid  #ff784f;
+    margin-right: -500px;
+}
+.HeaderContainer2{
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ff784f;
+}
+/*  */
+/*  */
+
+
+
+
+
+.search {
+  width: 100%;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #ff784f;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 15px 0 0 15px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #ff784f;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ff784f;
+  background: #ff784f;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .inputBox {
+        display: none;
+    }
+    .displayUl {
+        display: none;
+    }
+    .fotoPerfil {
+        display: none;
+    }
+    a{
+     display: none;   
+    }
+    
+
+}
