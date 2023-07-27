@@ -1,0 +1,56 @@
+.Destaques {
+    width: 100%;
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.DestaquePrincipal {
+    width: 70%;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.ConteudoDestaquePrincipal{
+    margin-top: 20px;
+    background-color: brown;
+    min-width: 90%;
+    width: 80%;
+    height: 500px;
+    align-self:calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.ConteudoDestaquePrincipal img{
+    
+}
+.ConteudoDestaquePrincipal h2{
+    width: 80%;
+    
+}
+
+.Destaquelateral {
+    min-width: 300px;
+    width: 30%;
+    margin: 0 auto;
+    background-color: blue;
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .Destaquelateral {
+        display: none;
+    
+    }
+    .imgDestaquePrincipal{
+        
+    }
+    
+}
