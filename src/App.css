@@ -1,0 +1,7 @@
+.Click{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Click:hover{
+    opacity: 0.80;
+}

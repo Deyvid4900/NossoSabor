@@ -1,3 +1,21 @@
+.titulo1 {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.titulo2 {
+    width: 90%;
+    height: 50px;
+    padding-bottom: 20px;
+    margin: 0px auto;
+}
+
+.titulos h1 {}
+
 .Destaques {
     width: 100%;
     /* background-color: red; */
@@ -8,49 +26,159 @@
 }
 
 .DestaquePrincipal {
-    width: 70%;
-    background-color: aquamarine;
-    margin: 0 auto;
+    width: 60%;
+    /* background-color: #f5f5f5; */
+    margin: 0px auto;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
 }
-.ConteudoDestaquePrincipal{
+
+.ConteudoDestaquePrincipal {
     margin-top: 20px;
-    background-color: brown;
+    /* background-color: brown; */
     min-width: 90%;
     width: 80%;
     height: 500px;
-    align-self:calc(100% - 100px);
+    align-self: calc(100% - 100px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.ConteudoDestaquePrincipal img{
-    
-}
-.ConteudoDestaquePrincipal h2{
+
+.ConteudoDestaquePrincipal img {}
+
+.ConteudoDestaquePrincipal h2 {
     width: 80%;
-    
+
+}
+
+.imgDestaquePrincipal {
+    width: 90%;
+    margin-top: 60px;
+}
+
+.DescricaoReceitaDestaque {
+    width: 90%;
+    z-index: 1;
 }
 
 .Destaquelateral {
     min-width: 300px;
-    width: 30%;
-    margin: 0 auto;
-    background-color: blue;
+    width: 40%;
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5f5f5b4;
 
 }
 
+.LateralPequeno {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    gap: 20px;
+    padding-bottom: 20px;
+    /* background-color: #3a3042; */
+    color: #000;
+}
+
+
+.LateralConteudo img {
+    width: 180px;
+    height: 140px;
+}
+
+.LateralGrande {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgLateralGrande {
+    width: 84%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.NomeImgGrande {
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.HasIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon{
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
-    
+
     .Destaquelateral {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .LateralGrande {
         display: none;
-    
     }
-    .imgDestaquePrincipal{
-        
+
+    .ConteudoDestaquePrincipal h2 {
+        width: 90vw;
     }
-    
+
+    .imgDestaquePrincipal {
+        width: 90vw;
+    }
+
+    .DescricaoReceitaDestaque {
+        width: 90vw;
+    }
+
+    .titulo1 {
+        width: 90%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 5px;
+
+    }
+
+    .ConteudoDestaquePrincipal {
+        margin-top: -5px;
+        /* background-color: brown; */
+        min-width: 90%;
+        width: 80%;
+        height: 500px;
+        align-self: calc(100% - 100px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
 }
