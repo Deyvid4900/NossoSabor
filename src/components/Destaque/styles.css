@@ -137,6 +137,7 @@
 
     .Destaquelateral {
         margin-top: 100px;
+        margin-bottom: 100px;
         width: 100%;
     }
 
@@ -149,6 +150,7 @@
     }
 
     .imgDestaquePrincipal {
+        margin-top: 100px;
         width: 90vw;
     }
 
@@ -159,7 +161,7 @@
     .titulo1 {
         width: 90%;
         height: 50px;
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         padding-top: 50px;

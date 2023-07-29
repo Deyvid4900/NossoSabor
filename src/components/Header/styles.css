@@ -23,6 +23,10 @@ li {
 
 .lista {
     width: 55vw;
+    display: flex;
+    align-self: center;
+    justify-content: end;
+    height: 50%;
 }
 
 .lista ul {
@@ -30,7 +34,10 @@ li {
     display: flex;
     gap: 30px;
     flex-direction: row;
-    justify-content: end;  
+    justify-content: end;
+    height: 100%;
+    align-self: start;
+
 }
 
 .lista ul li a {
@@ -65,22 +72,39 @@ li {
 }
 
 .divisioriaFoto {
-    
+
     display: flex;
     align-self: center;
     justify-content: end;
 }
 
+.divisioriaFotoCelular {
+    display: none;
+}
+
 .fotoPerfil {
     width: 50px;
     height: 50px;
-    
+
     border-radius: 50%;
     /* background-color: red; */
     background-image: url('RegistrarBGjpg.jpg');
     background-size: contain;
     cursor: pointer;
     border: 2px solid #ff784f;
+    /* margin-right: -500px; */
+}
+
+.fotoPerfilBorderBlack {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    /* background-color: red; */
+    background-image: url('RegistrarBGjpg.jpg');
+    background-size: contain;
+    cursor: pointer;
+    border: 3px solid #373d43;
     /* margin-right: -500px; */
 }
 
@@ -92,6 +116,16 @@ li {
     align-items: center;
     justify-content: space-around;
     background-color: #ff784f;
+}
+
+.list-group-item {
+    font-size: 14pt;
+    display: flex;
+    justify-content: end;
+}
+
+.iconPerfil {
+    margin-left: 10px;
 }
 
 /*  */
@@ -111,7 +145,7 @@ li {
     border: 3px solid #ff784f;
     border-right: none;
     padding: 5px;
-    height: 20px;
+    height: 36px;
     border-radius: 15px 0 0 15px;
     outline: none;
     color: #9DBFAF;
@@ -121,9 +155,15 @@ li {
     color: #ff784f;
 }
 
+.bg-Header {
+    background-color: #ff784f;
+}
+
 .searchButton {
     width: 40px;
     height: 36px;
+    display: flex;
+    align-items: center;
     border: 1px solid #ff784f;
     background: #ff784f;
     text-align: center;
@@ -132,19 +172,22 @@ li {
     cursor: pointer;
     font-size: 20px;
 }
+
 @media only screen and (max-width: 360px) {
-    .divLogo{
+    .divLogo {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .logo{
+
+    .logo {
         top: -100px;
         width: 300px;
         z-index: 10;
- 
+
     }
 }
+
 @media only screen and (max-width: 768px) {
     .inputBox {
         display: none;
@@ -154,7 +197,7 @@ li {
         display: none;
     }
 
-    .fotoPerfil {
+    .divisioriaFoto {
         display: none;
     }
 
@@ -165,10 +208,31 @@ li {
     .HeaderContainer2 {
         display: none;
     }
-    .logo{
+
+    .logo {
         display: flex;
-        
+
         margin: 0px auto;
+    }
+
+    .divisioriaFotoCelular {
+        display: flex;
+        align-self: center;
+        justify-content: end;
+
+    }
+
+    .fotoPerfilCelular {
+        width: 50px;
+        height: 50px;
+
+        border-radius: 50%;
+        /* background-color: red; */
+        background-image: url('RegistrarBGjpg.jpg');
+        background-size: contain;
+        cursor: pointer;
+        border: 2px solid #ff784f;
+        /* margin-right: -500px; */
     }
 
 

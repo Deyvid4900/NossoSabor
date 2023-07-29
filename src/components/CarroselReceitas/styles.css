@@ -1,0 +1,9 @@
+.carouselDiv{
+    width: 60%;
+    height: 60%;
+    margin: 300px auto;
+
+}
+.carousel-item img {
+   height: 300px;
+}
