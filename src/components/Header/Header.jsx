@@ -59,7 +59,7 @@ const Header = () => {
                         <div className="offcanvas-body">
                             <div className="list-group">
                                 <a href="#" className="list-group-item list-group-item-action" aria-current="true">
-                                    Minhas Receitas <span className="material-symbols-outlined iconPerfil">
+                                    Principal <span className="material-symbols-outlined iconPerfil">
                                         home
                                     </span>
                                 </a>
@@ -123,7 +123,7 @@ const Header = () => {
                         <div className="offcanvas-body">
                             <div className="list-group">
                                 <a href="#" className="list-group-item list-group-item-action" aria-current="true">
-                                    Minhas Receitas <span className="material-symbols-outlined iconPerfil">
+                                    Principal <span className="material-symbols-outlined iconPerfil">
                                         home
                                     </span>
                                 </a>
