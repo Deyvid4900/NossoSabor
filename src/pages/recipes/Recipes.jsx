@@ -7,15 +7,13 @@ import Descricao from '../../components/Descricao/Descricao'
 import CarroselReceitas from '../../components/CarroselReceitas/CarroselReceitas'
 
 
-import '../recipes/Recipes.jsx'
-
-import "../recipes/styles.css"
+import "./styles.css"
 
 const Recipes = () => {
   return (
     <>
       <Header></Header>
-      <div className="container d-flex flex-column conteudo">
+      <div className="container d-flex flex-column conteudoReceita">
         <div className="container-fluid d-flex flex-row  justify-content-between align-items-center  mt-4 posConteudo"  >
           <div>
             <h1 className='TituloReceitas'>Nome Da Receita</h1>
@@ -60,7 +58,7 @@ const Recipes = () => {
         <div className='mt-4'>
           <h3>Tags Relacionadas</h3>
           <div>
-
+              Agua
           </div>
         </div>
         <div className='mt-4'>
@@ -72,7 +70,7 @@ const Recipes = () => {
         <div className='d-flex justify-content-end w-100 px-2 py-2 my-5'>
           <button>Comentar</button>
         </div>
-        <div className='mt-5'>
+        <div className='mt-5 divCarrosel'>
           <CarroselReceitas></CarroselReceitas>
         </div>
       </div>

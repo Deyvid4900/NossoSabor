@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 const CartaoReceita = () => {
   return (
     <div className="bg-alert">
+      <Link to={'/Receitas'}>
       <a href="#">
       <li className="d-inline-block   mx-2">
         <div className="card liCartaoReceita">
@@ -22,6 +24,7 @@ const CartaoReceita = () => {
         </div>
       </li>
       </a>
+      </Link>
     </div>
   );
 };

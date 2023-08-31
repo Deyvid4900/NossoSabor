@@ -1,0 +1,44 @@
+.conteudo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/BackGroundLogin.jpg');
+    background-size: cover;
+}
+.linkconta{
+    text-decoration: none;
+}
+.loginDiv{
+    width: 50%;
+    height: 90%;
+    border-radius: 40px;
+    box-shadow: 5px 3px 3px 5px rgba(0, 0, 0, 0.200);
+}
+.bgLogo{
+    background-color: #465362;
+    height: 40%;
+    border-radius: 38px 38px 0px 0px;
+}
+.divImg{
+    display: flex;
+    justify-content: center;
+    
+}
+.divImg img {
+    margin-top: -150px;
+    width: 500px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .loginDiv{
+        width: 80%;
+        height: 90%;
+    }
+    .divImg img {
+        margin-top: -150px;
+        width: 560px;
+    }
+}

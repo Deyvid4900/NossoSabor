@@ -14,7 +14,8 @@ const Home = () => {
         <Destaque/>
         
       </div>
-      <div>
+      <div className='divCarrosel'>
+        <h2>Relacionados</h2>
           <CarroselReceitas>
             
           </CarroselReceitas>

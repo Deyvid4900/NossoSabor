@@ -1,3 +1,7 @@
+.LinkReact{
+    text-decoration: none;
+}
+
 .Click{
     transition: 0.5s;
     cursor: pointer;

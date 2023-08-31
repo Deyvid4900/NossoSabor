@@ -13,7 +13,14 @@ const ModoPreparo = () => {
                 <h2>Modo de Preparo</h2>
                 <div>
                     <ol>
-
+                        <li>coloque agua na jarra</li>
+                        <li>coloque agua na jarra</li>
+                        <li>coloque agua na jarra</li>
+                        <li>coloque agua na jarra</li>
+                        <li>coloque agua na jarra</li>
+                        <li>coloque agua na jarra</li>
+                        <li>coloque agua na jarra</li>
+                        
                     </ol>
                 </div>
             </div>

@@ -13,13 +13,13 @@ const Ingredientes = () => {
                 <h2>Ingredientes</h2>
                 <div>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Agua</li>
+                        <li>Jarra</li>
+                        <li>Agua</li>
+                        <li>Jarra</li>
+                        <li>Agua</li>
+                        <li>Jarra</li>
+                        <li>Agua</li>
                     </ul>
                 </div>
             </div>
