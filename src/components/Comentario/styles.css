@@ -5,13 +5,22 @@
     left: -70px;
     z-index: 10;
 }
+.FotoComentario{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 .divComentario{
+    margin-top: 5px;
+    margin-bottom: 5px;
     height: auto;
     display: flex;
     flex-direction: row;
     max-width: 50vw;
     min-width: 300px;
     /* color: white; */
+    background-color: #eeeeee;
+    border-radius: 5px;
 
 }
 .divBtnLike{
@@ -19,6 +28,26 @@
     
     justify-content: end;
 }
+.curtirComentario{
+    cursor: pointer;
+    
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.comentario{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+    text-align: left;
+    margin: 10px auto;
+}
+
 
 .HeaderContainer1 {
     margin: 0 auto;

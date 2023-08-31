@@ -4,6 +4,9 @@
     margin: 300px auto;
 
 }
+.ulComentario{
+    overflow-x: auto;
+}
 .carousel-item img {
    height: 300px;
 }

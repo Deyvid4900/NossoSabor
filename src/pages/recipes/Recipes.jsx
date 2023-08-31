@@ -4,6 +4,8 @@ import Comentario from '../../components/Comentario/Comentario'
 import Ingredientes from '../../components/Ingredientes/Ingredientes'
 import ModoPreparo from '../../components/ModoPreparo/ModoPreparo'
 import Descricao from '../../components/Descricao/Descricao'
+import CarroselReceitas from '../../components/CarroselReceitas/CarroselReceitas'
+
 
 import '../recipes/Recipes.jsx'
 
@@ -36,7 +38,7 @@ const Recipes = () => {
               </span>
             </button>
             <button  className='btn btn-group divIconesHero'>
-              <span className="material-symbols-outlined ">
+              <span className="material-symbols-outlined " >
                 favorite
               </span>
             </button>
@@ -64,12 +66,14 @@ const Recipes = () => {
         <div className='mt-4'>
           <h3>comentarios</h3>
           <Comentario></Comentario>
+          <Comentario></Comentario>
+          <Comentario></Comentario>
         </div>
-        <div className='d-flex justify-content-end w-100 px-2 py-2'>
+        <div className='d-flex justify-content-end w-100 px-2 py-2 my-5'>
           <button>Comentar</button>
         </div>
-        <div>
-          Relacionados componente
+        <div className='mt-5'>
+          <CarroselReceitas></CarroselReceitas>
         </div>
       </div>
     </>
