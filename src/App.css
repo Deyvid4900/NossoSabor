@@ -1,6 +1,11 @@
 .LinkReact{
     text-decoration: none;
 }
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+
+}   
 
 .Click{
     transition: 0.5s;

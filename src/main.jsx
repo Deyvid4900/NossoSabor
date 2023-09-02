@@ -7,26 +7,31 @@ import Login from "./pages/login/Login";
 import Registrar from "./pages/registrar/Registrar";
 import Recipes from "./pages/recipes/Recipes";
 import Sobre from "./pages/sobre/Sobre";
+import Enviar from "./pages/EnviarReceita/EnviarReceita";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/" ,
     element: <Home></Home>,
   },
   {
-    path: "/Login",
+    path: "/Enviar" || "/enviar" ,
+    element: <Enviar></Enviar>,
+  },
+  {
+    path: "/Login" || "/login",
     element: <Login></Login>,
   },
   {
-    path: "/Registrar",
+    path: "/Registrar" || "/registrar",
     element: <Registrar></Registrar>,
   },
   {
-    path: "/Receitas",
+    path: "/Receitas" || "/receitas",
     element: <Recipes></Recipes>,
   },
   {
-    path: "/Sobre",
+    path: "/Sobre" || "/sobre", 
     element: <Sobre></Sobre>,
   },
 ]);

@@ -11,8 +11,8 @@ const Ingredientes = () => {
         <>
             <div className='mt-5 '>
                 <h2>Ingredientes</h2>
-                <div>
-                    <ul>
+                <div className='divUlIngredientes'>
+                    <ul className='UlIngredientes'>
                         <li>Agua</li>
                         <li>Jarra</li>
                         <li>Agua</li>
@@ -20,6 +20,15 @@ const Ingredientes = () => {
                         <li>Agua</li>
                         <li>Jarra</li>
                         <li>Agua</li>
+                        <li>Agua</li>
+                        <li>Jarra</li>
+                        <li>Agua</li>
+                        <li>Jarra</li>
+                        <li>Agua</li>
+                        <li>Jarra</li>
+                        <li>Agua</li>
+                        <li>Agua</li>
+                      
                     </ul>
                 </div>
             </div>

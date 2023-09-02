@@ -4,7 +4,7 @@ import "./styles.css";
 
 const CartaoReceita = () => {
   return (
-    <div className="bg-alert">
+    <div className="bg-alert my-3">
       <Link to={'/Receitas'}>
       <a href="#">
       <li className="d-inline-block   mx-2">

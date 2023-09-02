@@ -1,0 +1,18 @@
+.btnComentar{
+    width: 200px;
+    height: 60px;
+    /* border: 1px 1px solid #3a3042; */
+    border: none;
+    border-radius: 10px;
+    background-color: #ff784f !important;
+    color: white;
+    cursor: pointer;
+ }
+ .tamanho{
+    width: 90%;
+    margin: auto;
+ }
+ .btnEnviar{
+    border:  none;
+    background-color: white;
+ }

@@ -3,6 +3,9 @@ import Receita from "../../components/CartaoReceita/CartaoReceita";
 import "../CarroselReceitas/styles.css";
 
 const CarroselReceitas = () => {
+
+
+  
   return (
     <>
       <div className="w-100 ">
@@ -12,12 +15,12 @@ const CarroselReceitas = () => {
             <Receita></Receita>
             <Receita></Receita>
             <Receita></Receita>
-            <Receita></Receita><Receita></Receita>
             <Receita></Receita>
             <Receita></Receita>
             <Receita></Receita>
-            <Receita></Receita><Receita></Receita>
-            
+            <Receita></Receita>
+            <Receita></Receita>
+          
           </ul>
       </div>
     </>

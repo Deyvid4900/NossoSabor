@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css";
+import Footer from "../../components/Footer/Footer";
 
 const Registrar = () => {
   return (
@@ -64,7 +65,9 @@ const Registrar = () => {
         </div>
         </form>
       </div>
+     
     </div>
+    
   );
 };
 

@@ -3,6 +3,12 @@
     margin-right: 10px;
 } */
 
+.divContendoComentario{
+   max-height: 600px;
+   width: 60%;
+   margin: auto;
+   overflow-x: auto;
+}
 .posConteudo{
     padding-top: 20px;
    }

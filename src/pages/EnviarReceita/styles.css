@@ -1,0 +1,26 @@
+.divForm{
+    
+    width: 60%;
+    margin: 50px auto;
+    background-color: #ff784f;
+    padding: 20px;   
+    color: #3a3042;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.329);
+}
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+
+}   
+h2{
+    color: #3a3042;
+}
+@media only screen and (max-width: 768px) {
+    .divForm{
+    
+        width: 90%;
+        
+        
+    }
+}

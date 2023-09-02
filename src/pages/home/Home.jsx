@@ -5,6 +5,7 @@ import './styles.css'
 import Header from '../../components/Header/Header'
 import Destaque from '../../components/Destaque/Destaque'
 import CarroselReceitas from '../../components/CarroselReceitas/CarroselReceitas'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -20,6 +21,9 @@ const Home = () => {
             
           </CarroselReceitas>
       </div>
+      <Footer></Footer>
+
+      
     </div>
   )
 }

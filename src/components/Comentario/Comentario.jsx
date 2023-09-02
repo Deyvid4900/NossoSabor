@@ -9,7 +9,7 @@ const Comentario = () => {
 
     return (
         <>
-            <div className=' container-fluid  divComentario p-2 '>
+            <div className=' container-fluid  divComentario p-3 mb-3 '>
                 <div className=''>
                     <div className='d-flex gap-2 align-items-center'>
                         <div >
